@@ -362,7 +362,6 @@ footer{
     }
 
     .menu-mobile{
-        display: none;
         opacity: 0;
         transition: 1s;
         position: absolute;
@@ -376,6 +375,10 @@ footer{
 
     .show{
         opacity: 1;
+    }
+
+    .hide{
+        opacity: 0;
     }
 
     .menu-mobile a{
